@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <empleados>
+      <empleado antiguedad="5 años" cargo="Jardinero">
+        <nombre>Juan Pérez</nombre>
+        <correo>juanperez98@gmail.com</correo>
+        <salario moneda="€">5.000</salario>
+      </empleado>
+      <empleado antiguedad="2 años" cargo="Operario">
+        <nombre>María Rodríguez</nombre>
+        <correo>maria.rodriguez@gmail.com</correo>
+        <salario moneda="€">7.000</salario>
+      </empleado>
+      <empleado antiguedad="3 años" cargo="Florista">
+        <nombre>Gustavo Ruíz Pons</nombre>
+        <correo>guzruz@gmail.com</correo>
+        <salario moneda="€">6.000</salario>
+      </empleado>
+      <empleado antiguedad="4 años" cargo="Diseñador de jardines">
+        <nombre>Margarita Domínguez Romero</nombre>
+        <correo>margadom@gmail.com</correo>
+        <salario moneda="$">7.500</salario>
+      </empleado>
+      <empleado antiguedad="1 años" cargo="Viverista">
+        <nombre>Ruth García Medellín</nombre>
+        <correo>rugame00@gmail.com</correo>
+        <salario moneda="$">6.000</salario>
+      </empleado>
+    </empleados>
+    <departamentos>
+      <departamento nombre="Jardinería">
+        <telefono>655-382-231</telefono>
+        <descripcion>Ofrecemos servicios de diseño, mantenimiento y construcción de jardines.</descripcion>
+      </departamento>
+      <departamento nombre="Ventas">
+        <telefono>685-209-801</telefono>
+        <descripcion>Nos encargamos de la venta de plantas y artículos de jardinería.</descripcion>
+      </departamento>
+      <departamento nombre="Vivero">
+        <telefono>705-950-975</telefono>
+        <descripcion>Nos encargamos de la venta de plantas de exterior y árboles.</descripcion>
+      </departamento>
+      <departamento nombre="Almacén">
+        <telefono>619-873-056</telefono>
+        <descripcion>Almacenamos toda la utilería, abonos, compostaje y cuidados varios para las plantas.</descripcion>
+      </departamento>
+      <departamento nombre="Floristería">
+        <telefono>683-680-568</telefono>
+        <descripcion>Ofrecemos servicios florales diversos para momentos especiales como bautizos, bodas y entierros.</descripcion>
+      </departamento>
+    </departamentos>
+    <articulos>
+      <articulo IVA="21%">
+        <nombre>Maceta de cerámica</nombre>
+        <precio moneda="€">200</precio>
+        <descripcion>Maceta para plantas de interior.</descripcion>
+      </articulo>
+      <articulo IVA="16%">
+        <nombre>Césped artificial</nombre>
+        <precio moneda="€">5.000</precio>
+        <descripcion>Rollo de césped sintético de alta calidad.</descripcion>
+      </articulo>
+      <articulo IVA="4%">
+        <nombre>Rastrillo</nombre>
+        <precio moneda="€">4</precio>
+        <descripcion>Instrumento de un mango largo con un travesaño armado de púas y que sirve para recoger hierba, paja, broza.</descripcion>
+      </articulo>
+    </articulos>
+    <arboles>
+      <arbol>
+        <nombre>Dracaena fragrans (Dracena)</nombre>
+        <precio moneda="euros">100</precio>
+		<disponibilidad>Alta</disponibilidad>
+      </arbol>
+    <arbol>
+      <nombre>Sansevieria trifasciata (Lingua de suegra)</nombre>
+      <precio moneda="euros">50</precio>
+     <disponibilidad>Baja</disponibilidad>
+    </arbol>
+    <arbol>
+      <nombre>Monstera deliciosa (Monstera)</nombre>
+      <precio moneda="dolares">200</precio>
+	  <disponibilidad>Baja</disponibilidad>
+    </arbol>
+	<arbol>
+      <nombre>Philodendron cordatum (Filodendro)</nombre>
+      <precio moneda="dolares">105</precio>
+      <disponibilidad>Nula</disponibilidad>
+    </arbol>
+    </arboles>
+    <pueblos>
+    <pueblo>
+        <nombre>Almensilla</nombre>
+        <provincia>Sevila</provincia>
+        <Transportista>Seur</Transportista>
+    </pueblo>
+    <pueblo>
+        <nombre>Aguas Dulces</nombre>
+        <provincia>Sevilla</provincia>
+        <Transportista>Ups</Transportista>
+    </pueblo>
+    <pueblo>
+        <nombre>Lebrija</nombre>
+        <provincia>Jaén</provincia>
+        <Transportista>Ups</Transportista>
+    </pueblo>
+    <pueblo>
+        <nombre>Jeréz de la Frontera</nombre>
+        <provincia>Cadíz</provincia>
+        <Transportista>Seur</Transportista>
+    </pueblo>
+    </pueblos>
+  </empresa>
